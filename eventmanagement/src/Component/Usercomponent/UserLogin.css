@@ -1,0 +1,92 @@
+
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+
+
+.first{
+    display: flex;
+    align-items: center;
+   justify-content: center; 
+   margin-top: 30px;
+}
+
+
+
+body {
+    background-color: #f4f4f4; /* Light background for contrast */
+    /* font-family: 'Arial', sans-serif; */
+  }
+  
+  .form-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  .border-color {
+    /* border: 2px solid #007bff; Add a subtle border */
+  }
+  
+  /* .custom-bg-text {
+    background-color: #007bff; 
+    color: #ffffff;                
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+  } */
+  
+  .text-color {
+    color: #333; /* Darker color for better readability */
+  }
+  
+  .form-control {
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 8px; /* Slightly rounded corners */
+    padding: 10px;
+    font-size: 1em;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+    outline: none;
+  }
+  
+  select.form-control {
+    appearance: none; /* Remove default select arrow for consistent styling */
+    background: #f8f9fa;
+    cursor: pointer;
+  }
+  
+  select.form-control option {
+    color: #333;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .card-header {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 10px;
+  }
